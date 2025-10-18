@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- FORM TAG -->
+    <form action="/data" method="get" target="_blank"></form>
+
+    <!-- Input element -->
+     <form action="/hero">
+    <input type="text" placeholder="Enter your name"><br>
+  <input type="email" placeholder="Enter email"><br>
+  <input type="password" placeholder="Enter password"><br>
+  <input type="number" min="1" max="10"><br>
+  <input type="date"><br>
+  <input type="file"><br>
+  <input type="checkbox"> Subscribe<br>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="range" min="0" max="100" value="50"><br>
+  <input type="color">
+  <input type="url">
+     </form>
+
+     <!-- Label Tag -->
+      <label for="Email">Email:</label>
+      <input type="email">
+
+      <!-- Textarea -->
+       <textarea rows="4" cols="40" placeholder="Write your feedback..."></textarea>
+
+       <!-- SELECT,OPTION,OPTGROUP -->
+        <select name="city">
+  <option value="">--Select City--</option>
+  <option value="delhi">Delhi</option>
+  <option value="mumbai">Mumbai</option>
+  <optgroup label="South India">
+    <option value="chennai">Chennai</option>
+    <option value="bangalore">Bangalore</option>
+  </optgroup>
+</select>
+
+<!-- Buttons -->
+ <button type="button" onclick="alert('Hello,World')">Click me</button>
+ <button type="submit">Click ok</button>
+ <button type="reset">Click</button>
+
+ <!-- Field set and Legend -->
+  <fieldset>
+  <legend>Personal Info</legend>
+  <label>Name: <input type="text"></label><br>
+  <label>Email: <input type="email"></label>
+</fieldset>
+
+<!-- Common Input Attributes -->
+ <input required placeholder="Hero">
+  <input disabled placeholder="Hero">
+  <input readonly value="Tanmay">
+  <input value="Bhadauria">
+
+  <!-- FORM VALIDATION -->
+   <form>
+  <input type="email" required>
+  <input type="number" min="18" max="60">
+  <input type="text" pattern="[A-Za-z]+" title="Only letters allowed">
+  <button type="submit">Submit</button>
+</form>
+
+<!-- Full forms -->
+ <form action="/submit" method="post">
+  <fieldset>
+    <legend>Sign Up</legend>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label for="city">City:</label>
+    <select id="city">
+      <option value="delhi">Delhi</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="bangalore">Bangalore</option>
+    </select><br><br>
+
+    <textarea rows="3" placeholder="Your bio..."></textarea><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </fieldset>
+</form>
+
+ 
+</body>
+</html>
