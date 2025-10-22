@@ -1,0 +1,55 @@
+/* Universal Selector */
+*{
+    margin: 80px;
+    border: 20px;
+    background-color: whitesmoke;
+}
+
+/* Element selector */
+p{
+    color: red;
+    font-size: large;
+}
+
+/* Classes selectors */
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* ID Selectors */
+#Classic{
+color: royalblue;
+  font-size: 28px;
+} 
+
+/* Grouping selectors */
+
+h1,p{
+    color: cadetblue;
+    margin: 30px;
+    font-weight: bolder;
+}
+
+/*  Combinators */
+/* Descendant selectors */
+div p {
+  color: green;
+}
+
+/* child selectors */
+
+div>p{
+    color:cornflowerblue
+}
+
+/* Adjacent sibling selector */
+h1+p{
+  color: rgb(255, 0, 43);
+}
+
+/* General sibling selectors */
+h1 ~ p {
+  color: purple;
+}

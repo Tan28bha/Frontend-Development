@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+}
+
+div{
+    background-image: url("Screenshot 2025-05-13 025815.png");
+    div {
+  background-repeat: no-repeat; /* repeat-x, repeat-y, no-repeat */
+  background-size: cover;       /* contain, auto, or specific (100px 100px) */
+  background-position: center;  /* top, bottom, left, right, or coordinates */
+  background-attachment: fixed; /* scroll or fixed */
+}
+
+}
+
